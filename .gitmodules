@@ -1,0 +1,3 @@
+[submodule "scripts/can2tcp"]
+	path = scripts/can2tcp
+	url = https://github.com/belovictor/can2tcp.git

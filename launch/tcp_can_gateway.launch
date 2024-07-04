@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+    <node name="tcp_can_gateway" pkg="tcp_can_gateway" type="tcp_can_gateway.py" output="screen">
+        <!-- CAN bus/dronecan parameters -->
+        <param name="can_interface" type="string" value="vcan0" />
+        <param name="gateway_host" type="string" value="192.168.1.4" />
+        <param name="gateway_port" type="int" value="20001" />
+    </node>
+</launch>
